@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js"
-
   },
   "author": "Luke",
   "license": "MIT",
@@ -15,6 +14,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "gravatar": "^1.6.0",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.2.2",
     "passport": "^0.4.0",

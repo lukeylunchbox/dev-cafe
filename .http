@@ -1,0 +1,33 @@
+###
+GET http://localhost:5000/api/users/current
+
+{
+  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViNDMwNmI5ZWFmZTVlMmM4MzQwOWViNiIsIm5hbWUiOiJMdWtlIENvbGNvdHQiLCJhdmF0YXIiOiIvL3d3dy5ncmF2YXRhci5jb20vYXZhdGFyL2NmZjczMzIzZTJlMmE2YmRmNGE2YmIxOTExYTE2ODBiP3M9MjAwJnI9cGcmZD1tbSIsImlhdCI6MTUzMTEzNTEzNSwiZXhwIjoxNTMxMTM4NzM1fQ.GU6D-KuUqrHSZz72sgJWD7JeDzVFmjKmUzndXsKB4-M"
+}
+
+###
+POST http://localhost:5000/api/users/register
+content-type: application/json
+
+{
+    "name": "Luke Colcott",
+    "email": "l.colcott@live.com",
+    "password": "123456"
+}
+
+###
+POST http://localhost:5000/api/users/login
+content-type: application/json
+
+{
+    "email": "l.colcott@live.com",
+    "password": "123456"
+}
+
+###
+POST http://localhost:5000/api/users/register
+content-type: application/json
+
+{
+    "name": "l"
+}
